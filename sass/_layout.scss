@@ -30,7 +30,25 @@
 
 .hotel-view {
     flex: 1;
-    height: 150vh;
     background-color: white;
 }
 
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: $color-grey-light-1;
+    border-bottom: 1px solid $color-grey-light-2;
+}
+
+.description {
+    font-size: 1.4rem;
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    box-shadow:  $shadow-light;
+    padding: 3rem;
+}
+
+.user-reviews {
+    background-color: yellowgreen;
+    flex: 1;
+}
